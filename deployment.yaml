@@ -14,7 +14,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        #image: nginx:latest
-        image: nginx:abc123   # invalid tag
+        image: nginx:latest
         ports:
         - containerPort: 80
